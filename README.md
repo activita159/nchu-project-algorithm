@@ -47,7 +47,7 @@ nchu-project-algorithm/
 │   └── charts.py                # Plotly / Matplotlib 圖表元件
 ├── .streamlit/
 │   └── config.toml              # Streamlit 深色主題設定
-└── start.bat                    # 一鍵啟動腳本（Windows）
+── start.bat                    # 一鍵啟動腳本（Windows）
 ```
 
 ## 快速開始
@@ -73,3 +73,5 @@ streamlit run app.py
 2. 前往 [share.streamlit.io](https://share.streamlit.io)
 3. 選擇此 repo，設定入口檔案為 `app.py`
 4. 點擊 Deploy
+
+> **注意**：Streamlit Cloud 強制使用 port 8501，因此 `.streamlit/config.toml` 中不設定 port。本地開發時由 `start.bat` 透過 `--server.port 3000` 指定。
