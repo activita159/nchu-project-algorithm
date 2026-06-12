@@ -2,6 +2,8 @@
 
 機器學習演算法互動學習平台 — 收錄 10 種經典 ML 演算法，每個演算法皆提供完整的理論說明、Python 程式碼範例，以及可即時調整參數的互動式視覺化圖表。
 
+demo page:https://nchu-project-algorithm-9wvdv32erf2ssaocdpcnf9.streamlit.app/
+
 ## 功能特色
 
 - **理論學習**：每個演算法包含完整的數學模型、損失函數、最佳化方法與核心概念說明
